@@ -1,0 +1,78 @@
+<mvc:View controllerName="com.example.timesheet.controller.Master"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+   	xmlns:f="sap.f" 
+    
+		xmlns:core="sap.ui.core"
+	
+    >
+   	<f:DynamicPage id="masterPage" toggleHeaderOnTitleClick="false">
+		<!-- DynamicPage Title -->
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<Title text="Timesheet"/>
+				</f:heading>
+			</f:DynamicPageTitle>
+		</f:title>
+
+		<!-- DynamicPage Content -->
+		<f:content>
+        
+			<VBox fitContainer="true">
+				
+				<OverflowToolbar class="sapFDynamicPageAlignContent">
+			
+
+         
+				</OverflowToolbar>
+					<List
+		
+		items="{path: 'app>/REQUEST_LIST'}"
+				
+					selectionChange="onSelectionChange"
+		
+		>
+		<ObjectListItem
+				title="{app>NAME}"
+				type="Navigation"
+				press="onListItemPress"
+				number="87.50"
+				numberUnit="{app>TARGET_DETAIL}"
+				
+				>
+			<firstStatus>
+				<ObjectStatus
+					text="Available"
+					state="Success" />
+			</firstStatus>
+			
+			
+		</ObjectListItem>
+		<ObjectListItem
+				title="{app>SUB_NAME}"
+				type="Navigation"
+				press="onListItemPress"
+				number="{app>HOUR_DETAIL}"
+				numberUnit="Target: 40 h">
+			<ObjectAttribute text="{app>MASTER_NAME}" />
+			
+		</ObjectListItem>
+		
+	</List>
+			</VBox>
+
+         
+		</f:content>
+
+		
+		<f:footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button type="Accept" text="Accept"/>
+				<Button type="Reject" text="Reject"/>
+			</OverflowToolbar>
+		</f:footer>
+	</f:DynamicPage>
+</mvc:View>

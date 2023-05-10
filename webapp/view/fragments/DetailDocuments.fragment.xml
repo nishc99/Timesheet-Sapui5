@@ -1,0 +1,143 @@
+<core:FragmentDefinition
+   xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m" >
+   <Table id="idPersonalTable"
+		inset="false">
+
+		<columns>
+			<Column
+				width="12em">
+				<Text text="" />
+			</Column>
+			<Column
+				demandPopin="true">
+				<Text text="Date" />
+			</Column>
+            <Column
+				demandPopin="true">
+				<Text text="Rejection Reason" />
+			</Column>
+            <Column
+				demandPopin="true">
+				<Text text="Time" />
+			</Column>
+			
+		</columns>
+		<items>
+			<ColumnListItem vAlign="Middle">
+				<cells>
+				
+				
+				<VBox >
+				<Switch accessibleNameRef="regularSwitchLabel" textOff="Off" textOn="On" change="handleChange">
+				
+				</Switch>
+				<ObjectIdentifier
+				text="Cost Assignment:
+						    Activity:
+							Employee Notes:"
+				/>
+				</VBox>
+				
+					
+
+					<Text
+						text="{app>DATE}" />
+					<Text
+						text="" />
+                    <Text
+						text="8 h" />      
+					
+				</cells>
+                
+			</ColumnListItem>
+            <ColumnListItem vAlign="Middle">
+				
+                <cells>
+				<VBox >
+				<Switch accessibleNameRef="regularSwitchLabel" textOff="Off" textOn="On" change="handleChange">
+				
+				</Switch>
+					<ObjectIdentifier
+						text="Cost Assignment:
+						    Activity:
+							Employee Notes:" />
+							</VBox>
+					<Text
+						text="{app>DATE_DATA}" />
+					<Text
+						text="" />
+                    <Text
+						text="8 h" />         
+					
+				</cells>
+			</ColumnListItem>
+			<ColumnListItem vAlign="Middle">
+				
+                <cells>
+				<VBox >
+				<Switch accessibleNameRef="regularSwitchLabel" textOff="Off" textOn="On" change="handleChange">
+				
+				</Switch>
+					<ObjectIdentifier
+						text="Cost Assignment:
+						    Activity:
+							Employee Notes:" />
+							</VBox>
+					<Text
+						text="{app>DATE_DATAS}" />
+					<Text
+						text="" />
+                    <Text
+						text="8 h" />        
+					
+				</cells>
+			</ColumnListItem>
+
+			<ColumnListItem vAlign="Middle">
+				
+                <cells>
+				<VBox >
+				<Switch accessibleNameRef="regularSwitchLabel" textOff="Off" textOn="On" change="handleChange">
+				
+				</Switch>
+					<ObjectIdentifier
+						text="Cost Assignment:
+						    Activity:
+							Employee Notes:" />
+							</VBox>
+					<Text
+						text="{app>DATE_DATAS1}" />
+					<Text
+						text="" />
+                    <Text
+						text="8 h" />        
+					
+				</cells>
+			</ColumnListItem>
+
+			<ColumnListItem vAlign="Middle">
+				
+                <cells>
+				<VBox >
+				<Switch accessibleNameRef="regularSwitchLabel" textOff="Off" textOn="On" change="handleChange">
+				
+				</Switch>
+					<ObjectIdentifier
+						text="Cost Assignment:
+						    Activity:
+							Employee Notes:" />
+							</VBox>
+					<Text
+						text="{app>DATE_DATAS2}" />
+					<Text
+						text="" />
+                    <Text
+						text="8 h" />        
+					
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>

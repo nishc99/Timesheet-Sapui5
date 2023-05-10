@@ -1,0 +1,85 @@
+[
+    {
+        "NAME": "Mr. Nida Anand",
+        "SUB_NAME":"Kelley Sales Executive 10",
+        "DETAIL_NAME": "Mr. Nida Anand",
+        "TARGET_DETAIL":"Target: 40 h",
+        "HOUR_DETAIL":"40 h",
+         "MASTER_NAME":"Mr. Nida Anand",
+
+         "MESSAGE_STRIP": "WEEK:24.03.2013-31.03.2013(40 H / 40 H)",
+         "DATE": "24.03.2013",
+         "DATE_DATA": "25.03.2013",
+         "DATE_DATAS": "26.03.2013",
+         "DATE_DATAS1": "27.03.2013",
+         "DATE_DATAS2": "28.03.2013"
+
+        }, 
+            
+    {
+        "NAME": "Mr. Gorini Fabrizio",
+        "SUB_NAME":"Kelley Service Executive 1",
+        
+        "DETAIL_NAME": "Mr. Gorini Fabrizio",
+        "TARGET_DETAIL":"Target: 40 h",
+        "HOUR_DETAIL":"40 h",
+
+           "MASTER_NAME":"Mr. Gorini Fabrizio",
+
+           "MESSAGE_STRIP": "WEEK:25.03.2013-31.03.2013(40 H / 40 H)",
+           "DATE": "25.03.2013",
+           "DATE_DATA": "26.03.2013",
+           "DATE_DATAS": "27.03.2013",
+           "DATE_DATAS1": "28.03.2013",
+         "DATE_DATAS2": "29.03.2013"
+
+           
+    },
+
+
+        
+
+    {
+        "NAME": "Mr. Ravi Marwaha",
+        "SUB_NAME":"Kelley Service Executive 2",
+        
+        "DETAIL_NAME": "Mr. Ravi Marwaha",
+        "TARGET_DETAIL":"Target: 40 h",
+        "HOUR_DETAIL":"40 h",
+
+           "MASTER_NAME":"Mr. Ravi Marwaha",
+
+           "MESSAGE_STRIP": "WEEK:26.03.2013-31.03.2013(40 H / 40 H)",
+           "DATE": "26.03.2013",
+           "DATE_DATA": "27.03.2013",
+           "DATE_DATAS": "28.03.2013",
+           "DATE_DATAS1": "29.03.2013",
+         "DATE_DATAS2": "30.03.2013"
+    },
+
+    {
+        "NAME": "Mr. Rakshit Daga",
+        "SUB_NAME":"Kelley Service Executive 3",
+        
+        "DETAIL_NAME": "Mr. Rakshit Daga",
+        "TARGET_DETAIL":"Target: 40 h",
+        "HOUR_DETAIL":"40 h",
+
+           "MASTER_NAME":"Mr. Rakshit Daga",
+
+           "MESSAGE_STRIP": "WEEK:27.03.2013-31.03.2013(40 H / 40 H)",
+           "DATE": "27.03.2013",
+           "DATE_DATA": "28.03.2013",
+           "DATE_DATAS": "29.03.2013",
+           "DATE_DATAS1": "30.03.2013",
+           "DATE_DATAS2": "31.03.2013"
+           
+        
+    }
+    
+    
+    
+
+    
+    
+]
